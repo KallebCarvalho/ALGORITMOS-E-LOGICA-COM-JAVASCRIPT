@@ -20,3 +20,4 @@ var numero7 = 100; // Number
 var numero8 = 100; // Number
 console.log(numero7 === numero8); // true - O valor e o tipo são iguais (Number e Number)
 
+// Diferente (!=) - Compara se os valores são diferentes, sem considerar o tipo de dado
