@@ -17,3 +17,4 @@ console.log(numero19 > numero20);
 var numero21 = 100; // Number
 var numero22 = 100; // Number
 console.log(numero21 >= numero22);
+// true - O valor da esquerda é igual ao valor da direita (100 = 100)
