@@ -3,7 +3,7 @@
 
 var nota1 = 5.0; var nota2 = 7.0; var nota3 = 8.0
 var notaFinal = (nota1 + nota2 + nota3) / 3;
-console.log(notaFinal);
+console.log(notaFinal.toFixed(1));
 
 if(notaFinal >= 7){
 console.log(`Parabéns está aprovado`);
@@ -11,3 +11,10 @@ console.log(`Parabéns está aprovado`);
     console.log("Que pena você está de exame");
 
 }
+
+//Explicação do código
+//Como a divisão por 3 gera uma dízima periódica (6.66666...), o número exibido no console fica muito longo. 
+//Você pode usar o método .toFixed(1) para limitar o resultado a uma casa decimal:
+
+// Exibe a nota formatada como "6.7"
+// console.log(notaFinal.toFixed(1));
