@@ -2,8 +2,8 @@
 
 //Igualdade (==) - Compara se os valores são iguais, sem considerar o tipo de dado
 
-var numero1 = 100;
-var numero2 = 200;
+var numero1 = 100;// Number
+var numero2 = 200;// Number
 console.log(numero1 == numero2); // false
 
 var numero3 = 100; // Number
