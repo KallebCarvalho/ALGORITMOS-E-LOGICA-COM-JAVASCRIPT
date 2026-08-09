@@ -3,6 +3,9 @@
 
 var nota1 = 5.0; var nota2 = 7.0; var nota3 = 8.0
 var notaFinal = (nota1 + nota2 + nota3) / 3;
+//A variavel notaFinal vai fazer o calculo da média dos três valores e armazenar o resultado em uma variavel.
+//Primeiro vai calcular as notas dentro dos parenteses e depois vai dividir a soma pelo número de notas.
+
 console.log(notaFinal.toFixed(1));
 
 if(notaFinal >= 7){
@@ -18,3 +21,4 @@ console.log(`Parabéns está aprovado`);
 
 // Exibe a nota formatada como "6.7"
 // console.log(notaFinal.toFixed(1));
+// Observação: a nota de exame não é de 7 pontos, então não há necessidade de usar o método .toFixed(1)
