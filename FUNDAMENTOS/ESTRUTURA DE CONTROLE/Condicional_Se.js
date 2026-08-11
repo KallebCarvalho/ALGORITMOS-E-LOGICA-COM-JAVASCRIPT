@@ -5,7 +5,10 @@
 // então execute o bloco de código dentro das chaves
 //BLOCO DE CÓDIGO é tudo que está dentro das chaves {}
 
-const idade = 15;
+
+
+// Se a idade for maior ou igual a 18 então execute o bloco de código dentro das chaves
+const idade = 18;
 if (idade >= 18) {
     console.log("Você é maior de idade.");
 }

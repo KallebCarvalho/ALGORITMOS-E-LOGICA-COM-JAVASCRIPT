@@ -7,6 +7,7 @@ const idade = 9;
 if (idade >= 14 && idade < 16){
     console.log(`Este filme é indicado para maiores de 14 anos, contém cenas de violência`);
 }else if( idade>= 16 && idade < 18  &&  idade >= 25) {
+    //Else If precisa de uma condição, então o else if é usado quando queremos verificar mais de uma condição
     console.log(`Este filme é indicado para maiores de 16 anos, contém cenas de violência e drogas`);
 }else (idade <= 10 );{
     console.log(`Este filme é indicado para todos os públicos, contém classificação livre de cenas de violência, sexo e drogas`);
