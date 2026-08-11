@@ -18,3 +18,4 @@ switch (numero) {
 }
 
 //Switch é usado quando existe muitos encadeamentos de ifs
+ 
