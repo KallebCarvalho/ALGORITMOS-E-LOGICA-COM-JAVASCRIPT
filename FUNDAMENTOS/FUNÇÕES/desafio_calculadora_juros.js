@@ -8,11 +8,11 @@
 // i = taxa de juros 
 // n = tempo em meses.
 
-var valorPrincipal = 2000; // Number
+var valorPrincipal = 5000; // Number
 var taxaJuros = 0.03; // Number //Igual a 3% de juros, que é 0.03 em decimal
 var tempoMeses = 12; // Number
 var jurosSimples = valorPrincipal * taxaJuros * tempoMeses; // Number
-console.log(`O valor dos juros simples é: ${jurosSimples}`);
+console.log(`O valor dos juros simples é: ${jurosSimples} reais`); // Exibindo o resultado do cálculo de juros simples
 
 function calcularJuros(valorPrincipal, taxaJuros, tempoMeses){
     let juros = valorPrincipal * taxaJuros * tempoMeses;
