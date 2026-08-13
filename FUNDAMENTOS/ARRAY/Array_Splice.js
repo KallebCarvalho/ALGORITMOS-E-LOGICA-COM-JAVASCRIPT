@@ -14,4 +14,4 @@ const nomes = ["João", "Maria", "Pedro", "José", "Carlos", "Ana"];
 console.log(nomes);
 
 nomes.splice(2, 2, "João");
-console.log(nomes);
+console.log(nomes); 
