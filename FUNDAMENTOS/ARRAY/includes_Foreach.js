@@ -12,5 +12,5 @@
 const nomes = ["Joao", "Maria", "Pedro", "Carlos", "Ana"];
 
 nomes.forEach((nome) => {
-    console.log("Passou aqui.." + nome);
+    console.log("Passou aqui..." + nome);
 })
