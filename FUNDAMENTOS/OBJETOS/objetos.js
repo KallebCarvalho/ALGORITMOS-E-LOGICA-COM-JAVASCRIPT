@@ -11,7 +11,7 @@ const aluno ={
 }
 //Objetos são construidos usando chaves e valores
 console.log(aluno);
-console.log(aluno["nome"]);
+console.log(aluno["nome"]); // console.log(aluno.nome);
 console.log(aluno.idade);
 console.log(aluno.salario);
 console.log(aluno.carreira);
