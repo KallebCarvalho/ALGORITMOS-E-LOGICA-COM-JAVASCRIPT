@@ -13,6 +13,7 @@ const pessoa = {
         numero: 123,
         bairro: "Centro",
         cidade: "Campinas",
+        complemento: "Apto 123",
         estado: "SP"
     }
 }
