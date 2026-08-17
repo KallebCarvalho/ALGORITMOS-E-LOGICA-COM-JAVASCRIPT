@@ -34,3 +34,5 @@ aluno.saudacao();
 
 //Métodos
 aluno.saudacao = function () {
+    console.log("Olá eu sou o João");
+}
