@@ -18,8 +18,10 @@ const funcionarios = [
         cargo: "Desenvolvedor Senior"
     }
 ]
-console.log(funcionarios);
+console.log(funcionarios[0]);
 
 funcionarios.forEach ((funcionarios) => {
-    console.log(funcionarios);
+    console.log(`Nome do funcionario: ${funcionarios.nome}`);
+    console.log(`Idade do funcionario: ${funcionarios.idade}`);
+    console.log(`Cargo do funcionario: ${funcionarios.cargo}`);
 })
