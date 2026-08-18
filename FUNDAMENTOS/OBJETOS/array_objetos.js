@@ -1,9 +1,10 @@
 //Conhecendo Array de Objetos
 
-const funcionarios = [{
-    nome: "João",
-    idade: 25,
-    cargo: "Desenvolvedor Junior",
+const funcionarios = [
+    {
+        nome: "João",
+        idade: 25,
+        cargo: "Desenvolvedor Junior",
     },
     {
         nome: "Mariana",
@@ -17,7 +18,7 @@ const funcionarios = [{
         cargo: "Desenvolvedor Senior"
     }
 ]
-console.log(funcionarios[1])
+console.log(funcionarios);
 
 funcionarios.forEach ((funcionarios) => {
     console.log(funcionarios);
